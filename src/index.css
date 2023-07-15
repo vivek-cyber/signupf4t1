@@ -11,8 +11,14 @@ body {
   overflow-y: scroll;
 }
 
+#root
+{
+  height: 100%;
+}
+
 .App
 {
+  height: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -35,7 +41,8 @@ font-weight: 400;
 line-height: 33px;
 letter-spacing: 0.04em;
 text-align: left;
-padding: 25px;
+padding: 0 25px;
+
 font-family: 'Poppins', sans-serif;
 padding-right: 5px;
 }
@@ -43,7 +50,7 @@ padding-right: 5px;
 {
   width: 68%;
   background-color: white;
-  height: 100vh;
+  height: 100%;
   border-radius: 6% 0 0 6%;
   color: rgb(28, 26, 26);
   display: flex;
@@ -51,6 +58,7 @@ padding-right: 5px;
   /* align-items: center; */
   justify-content: flex-start;
   color: #c0b6b6;
+  padding: 0px 5px;
 }
 
 #p2>#header>h1{
@@ -67,6 +75,7 @@ padding-right: 5px;
 
 #img1
 {
+  height: 70%;
   position: relative;
   /* left: 34%; */
   transform: rotateZ(-8deg);
@@ -83,6 +92,7 @@ padding-right: 5px;
   align-content: center;
   font-family: 'Poppins';
   font-weight: 900;
+  padding: 15px;
   /* justify-content: flex-start; */
 }
 .gobuttons
@@ -152,6 +162,11 @@ overflow-y: auto;
 {
 width: 100%;
 border-radius: 6%
+}
+
+#form>input
+{
+  width:70%
 }
 
   }
